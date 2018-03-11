@@ -1,0 +1,871 @@
+h1, h2, h3 {
+   font-family: 'Cinzel', serif;
+   color: #3D505D;
+}
+
+h2 {
+   font-size: 24pt;
+   padding: 10px 0 10px 0;
+}
+
+h3 {
+   font-size: 18pt;
+   padding: 15px 0 20px 0;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: darkgray;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #DC8729;   
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.my-picture {
+    width: 140px;
+    height: auto;
+    float: left;
+    padding: 13px 20px 0px 0;
+}
+
+.main-sectioni {
+    width: 600px;
+    float: left;
+    background-color: white;
+    padding: 25px;
+    height: 590px;
+    border-style: solid;
+    border-width: .3px;
+    border-color: lightgray;
+}
+
+.main-sectionp {
+    width: 600px;
+    float: left;
+    background-color: white;
+    padding: 25px;
+    height: 950px; 
+    border-style: solid;
+    border-width: .3px;
+    border-color: lightgray;
+}
+
+.main-sectionc {
+    width: 600px;
+    float: left;
+    background-color: white;
+    padding: 25px;
+    height: 605px; 
+    border-style: solid;
+    border-width: .3px;
+    border-color:lightgray;
+}
+
+
+.sidebar {
+    width: 240px;
+    float: right;
+    margin: 0 0 0 60px;
+    background-color: white;
+    margin: 0 0 40px 0;
+    padding: 15px 15px 25px 15px;
+    border-style: solid;
+    border-width: .3px;
+    border-color: lightgray;
+    text-align: center;
+}
+
+.entire-content {
+    width: 960px;
+    clear: both; 
+    padding: 20px 0 20px 0;
+    overflow: auto; 
+    margin: auto;
+    z-index: 2;
+}
+
+.name-box {
+    background-color: #3D505D;
+    color: white;
+    padding: 28px 0 0 0;
+    text-align: center;
+    font-size: 20pt;
+    width: 300px;
+    font-family: 'Cinzel', serif;
+    border-style: solid;
+    border-width: .3px;
+    border-color: lightgray;
+    text-shadow: .5px .5px rgb(0, 0, 0);
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    
+}
+
+.nav-box {
+    float: right;
+    text-align: right;
+    margin: 0 0 0 0px;
+    padding: 36px 0 0px 420px;
+    letter-spacing: 1px;
+    word-spacing: 20px; 
+    font-family: 'Raleway', sans-serif;
+} 
+
+.nav-box:p {
+    color: black; 
+}
+
+.header-content {
+    width: 960px;
+    display: flex;
+    margin: auto; 
+    height: 80px;   
+}
+
+.content-area {
+    background-image: url(../images/diagonal_waves.png);
+    clear: both;
+    height: 700px;
+    border-style: solid;
+    border-width: .3px 0 .3px 0;
+    border-color: lightgray;
+}
+
+.content-areai {
+    background-image: url(../images/diagonal_waves.png);
+    clear:both;
+    height: 680px;
+    border-style: solid;
+    border-width: .3px 0 .3px 0;
+    border-color: lightgray;
+}
+
+.content-areap {
+    background-image: url(../images/diagonal_waves.png);
+    clear:both;
+    height: 1128px;
+    border-style: solid;
+    border-width: .3px 0 .3px 0;
+    border-color: lightgray;
+}
+
+#colorstrip {
+    width: 100%;
+    height: 10px;
+    background-color: #CB5940;
+}
+
+footer {
+    clear: both;
+    float: left;
+    width: 100%;
+    padding: 45px 0 0 0;
+    text-align: center;
+    background-color: #3D505D;
+    color: white;
+    font-size: 8pt;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    height: 30px;
+}
+
+.content1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .sidebar-img {
+      width: 70px;
+      height: 70px;
+  }
+
+  .specialpic {
+      height: 62px;
+      width: 62px;
+      padding: 0 0 4px 2px;
+  }
+  
+  .sidebar-img:hover, .specialpic:hover {
+    border-bottom: 1px solid #3D505D;
+  }
+
+
+.line-class {
+	height: 10px;
+	border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    padding: 5px 0 5px 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #3D505D;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 12pt;
+}
+
+input[type=submit]:hover {
+    background-color: #CB5940;
+}
+
+.container {
+    padding: 0px 20px 25px 20px;
+    font-family: 'Cinzel', serif;
+    color: darkgray;
+    margin-top: 25px;
+}
+
+.pic-holder {
+    width: 100%;
+    clear: both;
+    display: flex; 
+    margin: auto;  
+ 
+    width: 650px;
+
+}
+
+.centered {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 83.6%;
+    background-color: #e6e6e6;
+    height: 40px;
+    color: #3D505D;
+    text-align: center;
+    padding: 25px 0 0 0;
+    font-family: 'Cinzel', serif;
+    font-size: 14pt;
+    letter-spacing: 1px;
+}
+
+.containerL {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    display: inline;
+    float: left;
+}
+
+.containerR {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    display: inline;
+    float: right;
+}
+
+.port-image {
+    width: 250px;
+    padding: 20px 10px 20px 10px;
+}
+
+.port-image:hover {
+    transform: rotate(-10deg);
+    -webkit-filter: grayscale(100%);
+}
+
+.ppic {
+    width: 610px;
+    height: auto;
+}
+
+.para-text {
+    padding: 10px 0 0 0;
+}
+
+
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+    .header-content {
+        width: 750px;
+        display: flex;
+        margin: auto; 
+        height: 80px;   
+    }
+
+    .name-box {
+        background-color: #3D505D;
+        color: white;
+        padding: 28px 0 0 0;
+        text-align: center;
+        font-size: 20pt;
+        width: 320px;
+        font-family: 'Cinzel', serif;
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        text-shadow: .5px .5px rgb(0, 0, 0);
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        
+    }
+ 
+    .my-picture {
+        width: 400px;
+        height: auto;
+        float: left;
+        padding: 0px 20px 20px 0;
+    }
+
+    .nav-box {
+        float: right;
+        text-align: right;
+        margin: 0 0 0 0px;
+        padding: 36px 0 0px 190px;
+        letter-spacing: 1px;
+        word-spacing: 20px; 
+        font-family: 'Raleway', sans-serif;
+    } 
+
+    .main-sectioni {
+        width: 400px;
+        float: left;
+        background-color: white;
+        padding: 25px;
+        height: 1110px;
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        margin: 
+    }
+
+    .entire-content {
+        width: 750px;
+        clear: both; 
+        padding: 20px 0 20px 0;
+        overflow: auto; 
+        margin: auto;
+        z-index: 2;
+    }
+    
+    body {
+        overflow y: hidden;
+        overflow x: hidden;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+        color: darkgray;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 1.5;
+        font-size: 10pt;
+    }
+ 
+    .content-areai {
+        background-image: url(../images/diagonal_waves.png);
+        clear: both;
+        height: 1190px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .main-sectionp {
+        width: 400px;
+        /* float: left; */
+        background-color: white;
+        padding: 25px;
+        height: 1840px; 
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        margin: auto;
+    }
+
+    .port-image {
+        width: 300px;
+        padding: 20px 20px 20px 20px;
+        margin: auto 0;
+        border: 50px;
+    }
+
+    .containerR {
+        position: relative;
+        text-align: center;
+        width: 300px;
+        display: inline;
+        float: left;
+    }
+    
+    .grow-pic {
+        padding: 0 25px 25px 25px;
+    }
+
+    .content-areap {
+        background-image: url(../images/diagonal_waves.png);
+        clear:both;
+        height: 1870px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .centered {
+        position: absolute;
+        top: 78%;
+        left: 56.7%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        background-color: #e6e6e6;
+        height: 40px;
+        color: #3D505D;
+        text-align: center;
+        padding: 25px 0 0 0;
+        font-family: 'Cinzel', serif;
+        font-size: 14pt;
+        letter-spacing: 1px;
+    }
+
+    .content-area {
+        background-image: url(../images/diagonal_waves.png);
+        clear: both;
+        height: 700px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .main-sectionc {
+        width: 400px;
+        float: left;
+        background-color: white;
+        padding: 25px;
+        height: 605px; 
+        border-style: solid;
+        border-width: .3px;
+        border-color:lightgray;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+    .header-content {
+        width: 630px;
+        display: flex;
+        margin: auto; 
+        height: 80px;   
+    }
+
+
+    .name-box {
+        background-color: #3D505D;
+        color: white;
+        padding: 28px 0 0 0;
+        text-align: center;
+        font-size: 20pt;
+        width: 320px;
+        font-family: 'Cinzel', serif;
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        text-shadow: .5px .5px rgb(0, 0, 0);
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        
+    }
+ 
+    .my-picture {
+        width: 140px;
+        height: auto;
+        float: left;
+        padding: 13px 20px 0px 0;
+    }
+
+    .nav-box {
+        float: right;
+        text-align: right;
+        margin: 0 0 0 0px;
+        padding: 32px 0 0px 65px;
+        letter-spacing: 1px;
+        word-spacing: 20px; 
+        font-family: 'Raleway', sans-serif;
+    } 
+
+    .main-sectioni {
+        width: 580px;
+        float: left;
+        background-color: white;
+        padding: 25px;
+        height: 465px;
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        margin: 
+    }
+
+    .entire-content {
+        width: 638px;
+        clear: both; 
+        padding: 20px 0 20px 0;
+        overflow: auto; 
+        margin: auto;
+        z-index: 2;
+    }
+    
+    body {
+        overflow y: hidden;
+        overflow x: hidden;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+        color: darkgray;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 1.5;
+        font-size: 10pt;
+    }
+
+    .para-text {
+        padding: 10px 20px 10px 10px;
+    }
+ 
+    .content-areai {
+        background-image: url(../images/diagonal_waves.png);
+        clear: both;
+        height: 810px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .main-sectionp {
+        width: 580px;
+        /* float: left; */
+        background-color: white;
+        padding: 25px;
+        height: 910px; 
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        margin: auto;
+    }
+
+    .port-image {
+        width: 240px;
+        padding: 20px 10px 20px 10px;
+        margin: auto 0;
+        /* border: 50px; */
+    }
+
+    .containerR {
+        position: relative;
+        text-align: center;
+        width: 240px;
+        display: inline;
+        float: right;
+        padding: 0 20px 0 0;
+    }
+
+    .containerL {
+        position: relative;
+        text-align: center;
+        width: 240px;
+        display: inline;
+        float: left;
+        padding: 0 20px 0 0;
+    }
+    
+    .grow-pic {
+        padding: 0 15px 15px 15px;
+    }
+
+    .content-areap {
+        background-image: url(../images/diagonal_waves.png);
+        clear:both;
+        height: 1290px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .centered {
+        position: absolute;
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 93%;
+        background-color: #e6e6e6;
+        height: 40px;
+        color: #3D505D;
+        text-align: center;
+        padding: 25px 0 0 0;
+        font-family: 'Cinzel', serif;
+        font-size: 14pt;
+        letter-spacing: 1px;
+    }
+
+    .content-area {
+        background-image: url(../images/diagonal_waves.png);
+        clear: both;
+        height: 930px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .main-sectionc {
+        width: 580px;
+        float: left;
+        background-color: white;
+        padding: 25px;
+        height: 550px; 
+        border-style: solid;
+        border-width: .3px;
+        border-color:lightgray;
+    }   
+
+    .sidebar {
+        width: 580px;
+        float: left;
+        margin: 0 0 0 60px;
+        background-color: white;
+        margin: 20px 0 40px 0;
+        padding: 25px 25px 25px 25px;
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        text-align: left;
+    }
+    
+
+
+
+}
+
+@media screen and (max-width: 640px) and (min-width: 0px) {
+
+    .header-content {
+        width: 550px;
+        height: 110px;
+        margin: auto; 
+        display: inline-block;
+    }
+
+    header {
+        width: 550px;
+        margin: auto;
+    }
+
+    .name-box {
+        float: left;  
+        width: 100%;
+        height: 35px;
+        width: 550px;
+        background-color: #3D505D;
+        color: white;
+        padding: 20px 0 10px 0;
+        margin: 0 0 0 0;
+        text-align: center;
+        font-size: 20pt;
+        font-family: 'Cinzel', serif;
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        text-shadow: .5px .5px rgb(0, 0, 0);
+        word-spacing: 5px;
+        letter-spacing: 1px;
+    }
+ 
+    .my-picture {
+        width: 500px;
+        height: auto;
+        float: left;
+        padding: 0 0 15px 0;
+    }
+
+    .nav-box {
+        /* clear: both; */
+        float: left;
+        padding: 0;
+        text-align: center;
+        padding: 15px 0 0px 0px;
+        letter-spacing: 1px;
+        word-spacing: 50px; 
+        font-family: 'Raleway', sans-serif;
+        height: 35px;
+        width: 550px; 
+
+    } 
+
+    .main-sectioni {
+        width: 500px;
+        float: left;
+        background-color: white;
+        padding: 25px;
+        height: 1100px;
+        border-style: solid;ß
+        border-width: .3px;
+        border-color: lightgray;
+        margin: 
+    }
+
+    .entire-content {
+        width: 550px;
+        clear: both; 
+        padding: 20px 0 20px 0;
+        overflow: auto; 
+        margin: auto;
+        z-index: 2;
+
+    }
+    
+    body {
+        overflow y: hidden;
+        overflow x: hidden;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+        color: darkgray;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 1.5;
+        font-size: 10pt;
+    }
+
+    .para-text {
+        padding: 10px 20px 10px 10px;
+    }
+ 
+    .content-areai {
+        background-image: url(../images/diagonal_waves.png);
+        clear: both;
+        height: 1480px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .main-sectionp {
+        width: 500px;
+        display: inline-block;
+        background-color: white;
+        padding: 25px;
+        height: 1990px; 
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        margin: 0;
+    }
+
+    .port-image {
+        width: 340px;
+        padding: 20px 10px 20px 10px;
+        margin: auto 0;
+        /* border: 50px; */
+    }
+
+    .containerR {
+        position: relative;
+        text-align: center;
+        width: 340px;
+        display: inline;
+        float: left;
+        padding: 0 0px 0 55px;
+    }
+
+    .containerL {
+        position: relative;
+        text-align: center;
+        width: 340px;
+        display: inline;
+        float: left;
+        padding: 0 0px 0 55px;
+    }
+    
+    .grow-pic {
+        padding: 0 15px 15px 15px;
+    }
+
+    .content-areap {
+        background-image: url(../images/diagonal_waves.png);
+        clear:both;
+        height: 2367px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .centered {
+        position: absolute;
+        top: 78%;
+        left: 59.5%;
+        transform: translate(-50%, -50%);
+        width: 86.3%;
+        background-color: #e6e6e6;
+        height: 40px;
+        color: #3D505D;
+        text-align: center;
+        padding: 20px 0 5px 0;
+        font-family: 'Cinzel', serif;
+        font-size: 18pt;
+        letter-spacing: 1px;
+    }
+
+    .content-area {
+        background-image: url(../images/diagonal_waves.png);
+        clear: both;
+        height: 930px;
+        border-style: solid;
+        border-width: .3px 0 .3px 0;
+        border-color: lightgray;
+    }
+
+    .main-sectionc {
+        width: 500px;
+        float: left;
+        background-color: white;
+        padding: 25px;
+        height: 550px; 
+        border-style: solid;
+        border-width: .3px;
+        border-color:lightgray;
+    }   
+
+    .sidebar {
+        width: 588px;
+        float: left;
+        margin: 0 0 0 60px;
+        background-color: white;
+        margin: 20px 0 40px 0;
+        padding: 25px 25px 25px 25px;
+        border-style: solid;
+        border-width: .3px;
+        border-color: lightgray;
+        text-align: left;
+    }
+    
+
+}
