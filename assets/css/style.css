@@ -461,6 +461,22 @@ input[type=submit]:hover {
         letter-spacing: 1px;
     }
 
+    .centered2 {
+        position: absolute;
+        top: 78%;
+        left: 56.7%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        background-color: #e6e6e6;
+        height: 40px;
+        color: #3D505D;
+        text-align: center;
+        padding: 25px 0 0px 0;
+        font-family: 'Cinzel', serif;
+        font-size: 14pt;
+        letter-spacing: 1px;
+    }
+
     .content-area {
         background-image: url(../images/diagonal_waves.png);
         clear: both;
@@ -637,6 +653,22 @@ input[type=submit]:hover {
         color: #3D505D;
         text-align: center;
         padding: 25px 0 0 0;
+        font-family: 'Cinzel', serif;
+        font-size: 14pt;
+        letter-spacing: 1px;
+    }
+
+    .centered2 {
+        position: absolute;
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 93%;
+        background-color: #e6e6e6;
+        height: 40px;
+        color: #3D505D;
+        text-align: center;
+        padding: 17px 0 8px 0;
         font-family: 'Cinzel', serif;
         font-size: 14pt;
         letter-spacing: 1px;
@@ -844,9 +876,25 @@ input[type=submit]:hover {
         height: 40px;
         color: #3D505D;
         text-align: center;
-        padding: 20px 0 5px 0;
+        padding: 22px 0 3px 0;
         font-family: 'Cinzel', serif;
-        font-size: 18pt;
+        font-size: 16pt;
+        letter-spacing: 1px;
+    }
+
+    .centered2 {
+        position: absolute;
+        top: 78%;
+        left: 59.5%;
+        transform: translate(-50%, -50%);
+        width: 86.3%;
+        background-color: #e6e6e6;
+        height: 40px;
+        color: #3D505D;
+        text-align: center;
+        padding: 22px 0 3px 0;
+        font-family: 'Cinzel', serif;
+        font-size: 16pt;
         letter-spacing: 1px;
     }
 
