@@ -266,6 +266,22 @@ input[type=submit]:hover {
     letter-spacing: 1px;
 }
 
+.centered2 {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 83.6%;
+    background-color: #e6e6e6;
+    height: 40px;
+    color: #3D505D;
+    text-align: center;
+    padding: 17px 0 8px 0;
+    font-family: 'Cinzel', serif;
+    font-size: 14pt;
+    letter-spacing: 1px;
+}
+
 .containerL {
     position: relative;
     text-align: center;
