@@ -260,7 +260,7 @@ input[type=submit]:hover {
     height: 40px;
     color: #3D505D;
     text-align: center;
-    padding: 25px 0 0 0;
+    padding: 25px 0 0px 0;
     font-family: 'Cinzel', serif;
     font-size: 14pt;
     letter-spacing: 1px;
@@ -276,7 +276,7 @@ input[type=submit]:hover {
     height: 40px;
     color: #3D505D;
     text-align: center;
-    padding: 17px 0 8px 0;
+    padding: 15px 0 10px 0;
     font-family: 'Cinzel', serif;
     font-size: 14pt;
     letter-spacing: 1px;
@@ -471,7 +471,7 @@ input[type=submit]:hover {
         height: 40px;
         color: #3D505D;
         text-align: center;
-        padding: 25px 0 0px 0;
+        padding: 15px 0 10px 0;
         font-family: 'Cinzel', serif;
         font-size: 14pt;
         letter-spacing: 1px;
@@ -668,7 +668,7 @@ input[type=submit]:hover {
         height: 40px;
         color: #3D505D;
         text-align: center;
-        padding: 17px 0 8px 0;
+        padding: 15px 0 10px 0;
         font-family: 'Cinzel', serif;
         font-size: 14pt;
         letter-spacing: 1px;
@@ -892,7 +892,7 @@ input[type=submit]:hover {
         height: 40px;
         color: #3D505D;
         text-align: center;
-        padding: 22px 0 3px 0;
+        padding: 12px 0 13px 0;
         font-family: 'Cinzel', serif;
         font-size: 16pt;
         letter-spacing: 1px;
